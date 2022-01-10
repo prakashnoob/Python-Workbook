@@ -1,0 +1,22 @@
+# edit 1
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    
+i=0,j=1,max=0;
+for x in arr:
+    if(arr[i]>arr[j]):
+        if(arr[i]>max):
+            max = arr[i];
+            i=i+1;
+            j=j+1;
+    else:
+        i=i+1
+
+#k=1
+#for y in arr:
+ #   if(max-i == arr[y]):
+  #      print(arr[j])
+  #  else:
+   #     i=i+1;
